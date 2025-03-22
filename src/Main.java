@@ -16,39 +16,39 @@ public class Main {
             System.out.println("Собак " + dog + ", Кошек " + cat + ", Бумаги " + paper);
 
             //Задача 2
-            var fourDog = dog + 4;
-            var fourCat = cat + 4;
-            var fourPaper = paper + 4;
-            System.out.println("Собак " + fourDog + ", Кошек " + fourCat + ", Бумаги " + fourPaper);
+            dog = dog + 4;
+            cat = cat + 4;
+            paper = paper + 4;
+            System.out.println("Собак " + dog + ", Кошек " + cat + ", Бумаги " + paper);
 
             //3адача 3
-            var minusDog = fourDog - 3.5;
-            var minusCat = fourCat - 1.6;
-            var minusPaper = fourPaper - 7639;
-            System.out.println("Собак " + minusDog + ", Кошек " + minusCat + ", Бумаги " + minusPaper);
+            dog = dog - 3.5;
+            cat = cat - 1.6;
+            paper = paper - 7639;
+            System.out.println("Собак " + dog + ", Кошек " + cat + ", Бумаги " + paper);
 
             //Задача 4
             var friends = 19;
             System.out.println("Друзей " + friends);
 
-            var twoFriends = friends + 2;
-            System.out.println("Друзей " + twoFriends);
+            friends = friends + 2;
+            System.out.println("Друзей " + friends);
 
-            var endFriends = twoFriends / 7;
-            System.out.println("Друзей " + endFriends);
+            friends = friends / 7;
+            System.out.println("Друзей " + friends);
 
             //Задача 5
             var frog = 3.5;
             System.out.println("Лягушек " + frog);
 
-            var manyFrogs = frog * 10;
-            System.out.println("Лягушек " + manyFrogs);
+            frog = frog * 10;
+            System.out.println("Лягушек " + frog);
 
-            var noManyFrogs = manyFrogs / 3.5;
-            System.out.println("Лягушек " + noManyFrogs);
+            frog = frog / 3.5;
+            System.out.println("Лягушек " + frog);
 
-            var fourFrogs = noManyFrogs + 4;
-            System.out.println("Лягушек " + fourFrogs);
+            frog = frog + 4;
+            System.out.println("Лягушек " + frog);
 
             //Задача 6
             var boxer1 = 78.2;
@@ -62,6 +62,16 @@ public class Main {
             //Задание 7
             var ost = boxer2 % boxer1;
             System.out.println("Остаток от деления двух весов " + ost);
+
+            //Задача 8
+            var allTime = 640;
+            var onePersonTime = 8; //Часов на одного работника
+            var total = allTime/onePersonTime;
+            System.out.println("Всего работников в компании - " + total + " человек");
+
+            total = total + 94;
+            var newTime = allTime / total;
+            System.out.println("Если в компании работает " + total + " человек, то всего " + newTime + " часов работы может быть поделено между сотрудниками");
 
 
     }
